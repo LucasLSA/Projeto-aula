@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cor e imagem de fundo</title>
+
+        <style>
+
+            h1 {
+                /* background-image: url(imagens/yoshi.png); */
+
+
+                /* background-repeat: no-repeat; */
+                /* background-repeat: repeat-x; */
+                background-repeat: repeat;
+
+
+                background-attachment: scroll; /*fixa a imagem na tela mesmo descendo a barra*/
+                /*background-attachment: scroll; imagem rola com a tela*/
+
+
+                background-position: center center; /*primeiro horizontal, segundo vertical*/
+            }
+
+            .fundo {
+                background: fixed blue repeat-x url(imagens/yoshi.png) center;
+            }
+
+
+        </style>
+
+    </head>
+
+    <body class="fundo">
+
+        <h1>Conteúdo de título 1</h1>
+
+       
+       
+    </body>
+
+</html>
